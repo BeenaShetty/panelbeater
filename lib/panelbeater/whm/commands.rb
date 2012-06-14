@@ -76,7 +76,7 @@ module Panelbeater
     
       def cpanel(user, options={})
         default_options = { :apiversion => 2 }
-        all_options = default_options.merge!(options).merge!(:user => user)
+        all_options = default_options.merge!(options).merge!(:cpanel_jsonapi_user => user)
         do_request 'cpanel', all_options
       end
     
