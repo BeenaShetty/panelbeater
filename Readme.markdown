@@ -9,7 +9,6 @@
   Use cpanel and Whm API's in Rails
         Panelbeater gem  is used for communicating with the cPanel and WHM API's.
         Ruby library for the WHM & cPanel API.
-        Github path https://github.com/BeenaShetty/panelbeater
      
   Install
       require 'panelbeater'
